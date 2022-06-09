@@ -9,10 +9,10 @@ const Header = () => {
           <li className=' text-balck font-bold hover:text-secondary hover:font-bold hover:border border-primary rounded-lg'>
             <Link to={"/"}>Home</Link>
           </li>
-          <li className='text-balck hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
+          <li className='text-balck font-bold hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
             <Link to={"/myProfile"}>Projects</Link>
           </li>
-          <li className='text-balck hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
+          <li className='text-balck font-bold hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
             <Link to={"/blogs"}>Contact</Link>
           </li>
         </>
@@ -46,7 +46,7 @@ const Header = () => {
               {menuItems}
             </ul>
           </div>
-          <Link to={'/'} className="text-2xl font-bold f-style">SADEK</Link>
+          <Link to={'/'} className="text-2xl font-bold f-style">SADEK.</Link>
         </div>
         <div className="navbar-end hidden lg:flex ">
           <ul className="menu menu-horizontal p-0 f-style">{menuItems}</ul>

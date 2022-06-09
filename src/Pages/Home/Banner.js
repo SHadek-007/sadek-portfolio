@@ -20,7 +20,7 @@ const Banner = () => {
                 />
               </p>
             <button className="btn btn-primary mr-5 text-white">Hire Me</button>
-            <button className="btn btn-primary btn-outline ">Download Resume</button>
+            <button className="btn btn-primary btn-outline "><a href="https://drive.google.com/file/d/16C6ifnOB1dUCXscJlnhY5YhNnK7Q6nt-/view" target={'_blank'}>Download Resume</a></button>
         </div>
       </div>
       <div className="flex justify-end items-center">

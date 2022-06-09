@@ -38,7 +38,7 @@ const Skills = () => {
                 <progress className="progress progress-secondary w-56" value="75" max="100"></progress>
                 </div>
             </div>
-            <div className='flex-wrap md:flex gap-10 justify-center items-center pb-20'>
+            <div className='flex-wrap md:flex gap-10 justify-around items-center pb-20'>
                 <div className=' mt-7'>
                 <p>CSS</p>
                 <progress className="progress progress-secondary w-56" value="75" max="100"></progress>
