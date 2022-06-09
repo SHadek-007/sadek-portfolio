@@ -9,7 +9,11 @@ const Projects = () => {
       <h1 className="text-4xl text-center font-bold f-style pt-10 mb-16">
         My Recent <span className="text-secondary">Projects</span>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      data-aos="zoom-in"
+      data-aos-delay="100"
+      data-aos-duration="2000"
+      >
         <div className="card max-w-xl bg-base-100 shadow-xl">
           <figure>
             <img

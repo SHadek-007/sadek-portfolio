@@ -2,7 +2,11 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='bg-accent px-5 md:px-28 my-20'>
+        <div className='bg-accent px-5 md:px-28 my-16'
+        data-aos="zoom-in"
+        data-aos-delay="100"
+        data-aos-duration="3000"
+        >
             <h1 className='text-4xl text-center font-bold f-style pt-10 mb-16'>My <span className='text-secondary'>Skills</span></h1>
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5'>
                 <div>

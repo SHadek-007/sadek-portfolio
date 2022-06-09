@@ -21,10 +21,20 @@ const SendMessage = () => {
         Get In <span className="text-secondary">Touch</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center">
-        <div>
+        <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-sine"
+        >
             <img className="w-96" src={contactPhoto} alt="" />
         </div>
-        <div>
+        <div
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-sine"
+        >
             <form onSubmit={sendEmail}>
             <input type="text" name="name" placeholder="Name" className="input input-bordered w-full max-w-md" required/>
             <input type="email" name="email" placeholder="Email" className="mt-5 input input-bordered w-full max-w-md" required/>
