@@ -5,7 +5,7 @@ import mypng from "../../assets/img/my-portfolio.png";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 bg-accent h-[550px] px-5 md:px-28 gap-y-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 bg-accent h-[650px] md:h-[550px] px-5 md:px-28 gap-y-10">
       <div className="flex justify-start items-center">
         <div className="f-style">
             <h4 className="text-2xl font-bold">Hi, I am</h4>
