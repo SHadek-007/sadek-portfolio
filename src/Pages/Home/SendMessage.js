@@ -16,7 +16,7 @@ const SendMessage = () => {
       e.target.reset();
   };
   return (
-    <div className="px-5 md:px-28 mb-20">
+    <div className="px-5 md:px-28 mb-20" id="contact">
       <h1 className="text-4xl text-center font-bold f-style pt-10 mb-16">
         Get In <span className="text-secondary">Touch</span>
       </h1>

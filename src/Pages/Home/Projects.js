@@ -5,7 +5,7 @@ import img3 from '../../assets/projects/Denti Care.png';
 
 const Projects = () => {
   return (
-        <div className="px-5 md:px-28 mb-20">
+        <div className="px-5 md:px-28 mb-20" id="projects">
       <h1 className="text-4xl text-center font-bold f-style pt-10 mb-16">
         My Recent <span className="text-secondary">Projects</span>
       </h1>

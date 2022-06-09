@@ -32,7 +32,7 @@ const Banner = () => {
             data-aos="fade-up-right"
             data-aos-delay="600"
             data-aos-duration="3000"
-            >Hire Me</button>
+            ><a href="#contact">Hire Me</a></button>
             <button className="btn btn-primary btn-outline "
             data-aos="fade-up-right"
             data-aos-delay="600"
