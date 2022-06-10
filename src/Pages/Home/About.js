@@ -8,7 +8,7 @@ import twitter from '../../assets/logo/twitter.png';
 
 const About = () => {
     return (
-        <div className='mt-20 md:my-18 px-5 md:px-28 z-10'>
+        <div id='about' className='mt-20 md:my-18 px-5 md:px-28 z-10'>
             <h2 className='text-4xl text-center font-bold mb-5 f-style '>About <span className='text-secondary'>Me</span></h2>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-y-4 gap-x-7 items-center text-justify'>
                 <div

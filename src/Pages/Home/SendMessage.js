@@ -36,10 +36,10 @@ const SendMessage = () => {
         data-aos-easing="ease-in-sine"
         >
             <form onSubmit={sendEmail}>
-            <input type="text" name="name" placeholder="Name" className="input input-bordered w-full max-w-md" required/>
-            <input type="email" name="email" placeholder="Email" className="mt-5 input input-bordered w-full max-w-md" required/>
-            <input type="text" name="subject" placeholder="Subject" className="mt-5 input input-bordered w-full max-w-md" required/> <br />
-            <textarea name="message" className=" mt-5 mb-5 textarea textarea-bordered w-full max-w-md" placeholder="Message" required></textarea><br />
+            <input type="text" name="name" placeholder="Name" className="input input-bordered w-full max-w-lg" required/>
+            <input type="email" name="email" placeholder="Email" className="mt-5 input input-bordered w-full max-w-lg" required/>
+            <input type="text" name="subject" placeholder="Subject" className="mt-5 input input-bordered w-full max-w-lg" required/> <br />
+            <textarea name="message" className=" mt-5 mb-5 textarea textarea-bordered w-full max-w-lg" placeholder="Message" required></textarea><br />
             <input className="btn btn-primary btn-outline" type="submit" value="Send Message" />
             </form>
         </div>

@@ -10,10 +10,13 @@ const Header = () => {
             <Link to={"/"}>Home</Link>
           </li>
           <li className='text-balck font-bold hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
-            <Link to={"/projects"}>Projects</Link>
+            <a href="#projects">Projects</a>
           </li>
           <li className='text-balck font-bold hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
-            <Link to={"/contact"}>Contact</Link>
+            <a href="#contact">Contact Me</a>
+          </li>
+          <li className='text-balck font-bold hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
+            <a href="#about">About</a>
           </li>
         </>
       );

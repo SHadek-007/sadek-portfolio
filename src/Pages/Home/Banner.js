@@ -19,7 +19,7 @@ const Banner = () => {
             data-aos-delay="400"
             data-aos-duration="1000"
             >SADEK HOSSAIN</h1>
-            <p className="mb-10 text-3xl md:text-5xl font-semibold">
+            <h3 className="mb-10 text-3xl md:text-5xl font-semibold">
               <TypewriterComponent
               options={{
                 strings:  ['I am a Web Developer', 'I am a Web Designer', 'I am a Programmer'],
@@ -27,16 +27,16 @@ const Banner = () => {
                 loop: true,
               }}
                 />
-              </p>
+              </h3>
             <button className="btn btn-primary mr-5 text-white"
             data-aos="fade-up-right"
             data-aos-delay="600"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
             ><a href="#contact">Hire Me</a></button>
             <button className="btn btn-primary btn-outline "
             data-aos="fade-up-right"
             data-aos-delay="600"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
             ><a href="https://drive.google.com/file/d/16C6ifnOB1dUCXscJlnhY5YhNnK7Q6nt-/view" target={'_blank'}>Download Resume</a></button>
         </div>
       </div>
