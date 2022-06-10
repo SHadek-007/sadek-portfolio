@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img1 from '../../assets/projects/Monota-AutoParts.png';
 import img2 from '../../assets/projects/Car Manager.png';
 import img3 from '../../assets/projects/Denti Care.png';
@@ -8,23 +9,23 @@ import img6 from '../../assets/projects/phone hunter.png';
 
 const Projects = () => {
   return (
-        <div id='projects' className="px-5 md:px-28 mb-20" id="projects">
+        <div id='projects' className="px-5 md:px-28 mb-20">
       <h1 className="text-4xl text-center font-bold f-style pt-10 mb-16">
         My Recent <span className="text-secondary">Projects</span>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14"
       data-aos="zoom-in"
       data-aos-delay="100"
       data-aos-duration="2000"
       >
-        <div className="card max-w-xl bg-base-100 shadow-xl">
+        <div className="card max-w-xl bg-base-100 shadow-md rounded-md border">
           <figure>
             <img
               src={img1}
               alt="Monota AutoParts"
             />
           </figure>
-          <div className="card-body bg-slate-200">
+          <div className="card-body bg-slate-100">
             <h2 className="card-title">
               Monota AutoParts
               <div className="badge badge-secondary">Full Stack</div>
@@ -43,19 +44,20 @@ Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write
             </div>
             <div className="text-center mt-4">
                 <button className="btn btn-success mr-5 w-32"><a href="https://monota-auto-parts.web.app/" target={'_blank'}>Live Site</a></button>
-                <button className="btn btn-success w-32">Details</button>
+                <button className="btn btn-success w-32"> <Link to={'/project1'}>Details</Link></button>
+               
             </div>
           </div>
         </div>
 
-        <div className="card w-lg bg-base-100 shadow-xl">
+        <div className="card w-lg bg-base-100 shadow-md rounded-md border">
           <figure>
             <img
               src={img2}
               alt="Car Manager"
             />
           </figure>
-          <div className="card-body bg-slate-200">
+          <div className="card-body bg-slate-100">
             <h2 className="card-title">
               Car Manager
               <div className="badge badge-secondary">Full Stack</div>
@@ -73,19 +75,19 @@ Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write
             </div>
             <div className="text-center mt-4">
                 <button className="btn btn-success mr-5 w-32"><a href="https://car-manager-client.web.app/" target={'_blank'}>Live Site</a></button>
-                <button className="btn btn-success w-32">Details</button>
+                <button className="btn btn-success w-32"><Link to={'/project2'}>Details</Link></button>
             </div>
           </div>
         </div>
 
-        <div className="card w-lg bg-base-100 shadow-xl">
+        <div className="card w-lg bg-base-100 shadow-md rounded-md border">
           <figure>
             <img
               src={img3}
               alt="Denti Care"
             />
           </figure>
-          <div className="card-body bg-slate-200">
+          <div className="card-body bg-slate-100">
             <h2 className="card-title">
               Denti Care
               <div className="badge badge-secondary">Front End</div>
@@ -100,19 +102,19 @@ Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write
             </div>
             <div className="text-center mt-4">
                 <button className="btn btn-success mr-5 w-32"><a href="https://react-denticare.web.app/" target={'_blank'}>Live Site</a></button>
-                <button className="btn btn-success w-32">Details</button>
+                <button className="btn btn-success w-32"><Link to={'/project3'}>Details</Link></button>
             </div>
           </div>
         </div>
 
-        <div className="card w-lg bg-base-100 shadow-xl">
+        <div className="card w-lg bg-base-100 shadow-md rounded-md border">
           <figure>
             <img
               src={img4}
               alt="Red Onion"
             />
           </figure>
-          <div className="card-body bg-slate-200">
+          <div className="card-body bg-slate-100">
             <h2 className="card-title">
               Red Onion
               <div className="badge badge-secondary">Front End</div>
@@ -132,14 +134,14 @@ Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write
           </div>
         </div>
 
-        <div className="card w-lg bg-base-100 shadow-xl">
+        <div className="card w-lg bg-base-100 shadow-md rounded-md border">
           <figure>
             <img
               src={img5}
               alt="Perfume World"
             />
           </figure>
-          <div className="card-body bg-slate-200">
+          <div className="card-body bg-slate-100">
             <h2 className="card-title">
               Perfume World
               <div className="badge badge-secondary">Front End</div>
@@ -158,14 +160,14 @@ Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write
           </div>
         </div>
 
-        <div className="card w-lg bg-base-100 shadow-xl">
+        <div className="card w-lg bg-base-100 shadow-md rounded-md border ">
           <figure>
             <img
               src={img6}
               alt="Phone Gallery"
             />
           </figure>
-          <div className="card-body bg-slate-200">
+          <div className="card-body bg-slate-100">
             <h2 className="card-title">
             Phone Gallery
               <div className="badge badge-secondary">Front End</div>
