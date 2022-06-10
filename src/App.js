@@ -8,6 +8,9 @@ import { useEffect } from 'react';
 import Project1 from './Pages/AllProjects/Progect1/Project1';
 import Project2 from './Pages/AllProjects/Progect1/Project2';
 import Project3 from './Pages/AllProjects/Progect1/Project3';
+import Project4 from './Pages/AllProjects/Progect1/Project4';
+import Project5 from './Pages/AllProjects/Progect1/Project5';
+import Project6 from './Pages/AllProjects/Progect1/Project6';
 
 function App() {
   useEffect(()=>{
@@ -21,6 +24,9 @@ function App() {
       <Route path='/project1' element={<Project1></Project1>}></Route>
       <Route path='/project2' element={<Project2></Project2>}></Route>
       <Route path='/project3' element={<Project3></Project3>}></Route>
+      <Route path='/project4' element={<Project4></Project4>}></Route>
+      <Route path='/project5' element={<Project5></Project5>}></Route>
+      <Route path='/project6' element={<Project6></Project6>}></Route>
       </Routes>
     </div>
   );

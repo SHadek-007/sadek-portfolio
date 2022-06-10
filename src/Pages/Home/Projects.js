@@ -129,7 +129,7 @@ Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write
             </div>
             <div className="text-center mt-4">
                 <button className="btn btn-success mr-5 w-32"><a href="https://react-red-onion.netlify.app/" target={'_blank'}>Live Site</a></button>
-                <button className="btn btn-success w-32">Details</button>
+                <button className="btn btn-success w-32"><Link to={'/project4'}>Details</Link></button>
             </div>
           </div>
         </div>
@@ -155,7 +155,7 @@ Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write
             </div>
             <div className="text-center mt-4">
                 <button className="btn btn-success mr-5 w-32"><a href="https://phero-assignment9-perfume-world.netlify.app/" target={'_blank'}>Live Site</a></button>
-                <button className="btn btn-success w-32">Details</button>
+                <button className="btn btn-success w-32"><Link to={'/project5'}>Details</Link></button>
             </div>
           </div>
         </div>
@@ -182,7 +182,7 @@ Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write
             </div>
             <div className="text-center mt-4">
                 <button className="btn btn-success mr-5 w-32"><a href="https://phero-assignment6-phone-gallery.netlify.app/" target={'_blank'}>Live Site</a></button>
-                <button className="btn btn-success w-32">Details</button>
+                <button className="btn btn-success w-32"><Link to={'/project6'}>Details</Link></button>
             </div>
           </div>
         </div>
