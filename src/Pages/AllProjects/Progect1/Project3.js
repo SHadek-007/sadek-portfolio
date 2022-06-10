@@ -65,6 +65,9 @@ const Project3 = () => {
           </small>
         </p>
 
+        <p className="text-justify"><small>● Google Sign in & Sign up, GitHub Sign in & Sign up, Super Fast Data Load, No Relode Issue.</small></p>
+        <p className="text-justify"><small>● Using Json Web Token, Protected Route Use, Using React Router.</small></p>
+
         <div className="card-actions justify-center font-semibold mt-5">
           <div className="badge badge-outline">React</div>
           <div className="badge badge-outline">React Router</div>

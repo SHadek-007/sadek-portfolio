@@ -15,6 +15,9 @@ const Header = () => {
           <li className='text-balck font-bold hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
             <a href="#contact">Contact Me</a>
           </li>
+          <li className=' text-balck font-bold hover:text-secondary hover:font-bold hover:border border-primary rounded-lg'>
+            <Link to={"/blogs"}>Blogs</Link>
+          </li>
           <li className='text-balck font-bold hover:text-secondary hover:font-bold hover:border border-secondary rounded-lg'>
             <a href="#about">About</a>
           </li>

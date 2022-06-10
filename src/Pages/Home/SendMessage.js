@@ -30,10 +30,6 @@ const SendMessage = () => {
             <img className="w-96" src={contactPhoto} alt="" />
         </div>
         <div
-        data-aos="fade-left"
-        data-aos-offset="300"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-sine"
         >
             <form onSubmit={sendEmail}>
             <input type="text" name="name" placeholder="Name" className="input input-bordered w-full max-w-lg" required/>

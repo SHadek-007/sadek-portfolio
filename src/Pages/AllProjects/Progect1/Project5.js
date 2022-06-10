@@ -62,10 +62,10 @@ const Project5 = () => {
 
         <p className="text-justify">
           <small>
-          ● User Can Book any Service, Doctor Show Her Service, it is Static Website.
+          ● User Can Add Reviews, it is Static Website.
           </small>
         </p>
-
+        <p className="text-justify"><small>● Super Fast Data Load, No Relode Issue.</small></p>
         <div className="card-actions justify-center font-semibold mt-5">
           <div className="badge badge-outline">React</div>
           <div className="badge badge-outline">React Router</div>

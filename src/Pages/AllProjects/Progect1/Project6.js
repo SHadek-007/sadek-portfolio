@@ -62,7 +62,7 @@ const Project6 = () => {
 
         <p className="text-justify">
           <small>
-          ● User Can Book any Service, Doctor Show Her Service, it is Static Website.
+          ● Using JavaScript , DOM, ES6, Super Fast Data Load, it is Static Website.
           </small>
         </p>
 

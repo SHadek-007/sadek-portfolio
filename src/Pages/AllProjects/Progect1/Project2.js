@@ -55,7 +55,12 @@ const Project2 = () => {
         </h2>
         <p className="text-justify">
           <small>
-          ● Car Manager is a Warehouse Management Responsive Full-Stack Website. You Can Manage Your Warehouse Easly.
+          ● Car Manager - Choose Your Dream Car. This is a Warehouse Management MERN Stack Website. You Can Manage Your Warehouse with this. It is very easy to use. It is a best choose for your warehouse management.
+          </small>
+        </p>
+        <p className="text-justify">
+          <small>
+          ● Car Manager is a Warehouse Management Responsive Full-Stack Website. You Can Add Product, Remove Product, Manage Your Warehouse Easly.
           </small>
         </p>
 
@@ -64,6 +69,8 @@ const Project2 = () => {
           ● Users can Create an Account, Stock Update, Add Products, Delete Products, and Manage Products.
           </small>
         </p>
+        <p className="text-justify"><small>● Google Sign in & Sign up, GitHub Sign in & Sign up, Super Fast Data Load, No Relode Issue.</small></p>
+        <p className="text-justify"><small>● Using Json Web Token, Protected Route Use, Using React Router.</small></p>
 
         <div className="card-actions justify-center font-semibold mt-5">
           <div className="badge badge-outline">React</div>

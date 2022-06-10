@@ -44,17 +44,21 @@ const Project1 = () => {
               Monota AutoParts
               <div className="badge badge-secondary">Full Stack</div>
             </h2>
+            <p className="text-justify"><small>● Monota AutoParts - Get Tools for Your Dream Car. This is a Manufacturer Management MERN Stack Website. You Can Manage Your Manufacturer Tools with this. It is very easy to use. It is a best choose for your Manufacturer Products.</small></p>
             <p className="text-justify"><small>● A Responsive, Fully-Functional Car Parts Manufacturer Website. Allowing Customers to Create an Account, Browse Products, Buy Products, Delete Products, Stripe Payment, & Write Reviews.</small></p>
 
             <p className="text-justify"><small>●Admins can Add New Products, Remove existing Products, Remove Unpaid User Products, Update Shipping Status, and Create New Admin Accounts.</small></p>
+            <p className="text-justify"><small>● Google Sign in & Sign up, GitHub Sign in & Sign up, Super Fast Data Load, No Relode Issue.</small></p>
+            <p className="text-justify"><small>● Using Json Web Token, Protected Route Use, Using React Router.</small></p>
+            
 
             <div className="card-actions justify-center font-semibold mt-5">
               <div className="badge badge-outline">React</div>
               <div className="badge badge-outline">Node.js</div>
               <div className="badge badge-outline">Express.js</div>
               <div className="badge badge-outline">MongoDB</div>
-              <div className="badge badge-outline">Tailwind</div>
-              <div className="badge badge-outline">MongoDB</div>
+              <div className="badge badge-outline">Tailwind CSS</div>
+              <div className="badge badge-outline">React Router</div>
               <div className="badge badge-outline">Firebase</div>
               <div className="badge badge-outline">Heroku</div>
             </div>
